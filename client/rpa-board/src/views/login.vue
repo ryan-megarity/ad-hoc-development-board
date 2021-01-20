@@ -31,7 +31,8 @@
                 <a type="button" id = "register" href='#/register'>Register</a>
             </div>
             <div>
-                <a type="button" id = "guest" @click="logInGuest()" href='#/register'>Log in as a guest</a>
+                <a type="button" id = "guest" @click="logInGuest()"
+                href='#/register'>Log in as a guest</a>
             </div>
         </form>
     </div>
@@ -50,13 +51,6 @@ export default {
     error: '',
   }),
   methods: {
-    logInGuest() {
-      this.user = {
-        email: "guest@user.test",
-        password: "guest"
-      };
-      handleSubmit();
-    },
     handleSubmit() {
       fetch(LOGIN_API_URL, {
         method: 'POST',
@@ -78,6 +72,13 @@ export default {
           }
         }
       });
+    },
+    logInGuest() {
+      this.user = {
+        email: 'guest@user.test',
+        password: 'guest',
+      };
+      this.handleSubmit();
     },
   },
 };
