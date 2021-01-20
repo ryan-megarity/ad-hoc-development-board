@@ -107,7 +107,7 @@
 </template>
 
 <script>
-const API_URL = process.env.API_URL;
+const API_URL = 'https://portfolio-dev-board-backend.herokuapp.com/';
 
 export default {
   name: 'Home',
