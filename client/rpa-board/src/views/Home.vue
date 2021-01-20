@@ -107,7 +107,7 @@
 </template>
 
 <script>
-const API_URL = 'https://art-rpa-dev-board.herokuapp.com/';
+const API_URL = process.env.API_URL;
 
 export default {
   name: 'Home',

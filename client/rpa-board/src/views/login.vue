@@ -35,7 +35,7 @@
 </template>
 
 <script>
-const API_URL = 'https://art-rpa-dev-board.herokuapp.com/';
+const API_URL = 'https://portfolio-dev-board-backend.herokuapp.com/';
 const LOGIN_API_URL = `${API_URL}login`;
 export default {
   name: 'login',
