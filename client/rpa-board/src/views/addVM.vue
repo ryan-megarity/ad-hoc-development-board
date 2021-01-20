@@ -54,7 +54,7 @@
 </template>
 
 <script>
-const API_URL = 'https://art-rpa-dev-board.herokuapp.com/';
+const API_URL = 'https://portfolio-dev-board-backend.herokuapp.com/';
 const VM_API_URL = `${API_URL}add-vm`;
 
 export default {

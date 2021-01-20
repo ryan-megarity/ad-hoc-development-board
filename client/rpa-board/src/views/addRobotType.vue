@@ -44,7 +44,7 @@
 </template>
 
 <script>
-const API_URL = 'https://art-rpa-dev-board.herokuapp.com/add-robot-type/';
+const API_URL = 'https://portfolio-dev-board-backend.herokuapp.com/add-robot-type/';
 export default {
   name: 'addClient',
   data: () => ({

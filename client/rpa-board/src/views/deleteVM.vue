@@ -62,7 +62,7 @@
 </template>
 
 <script>
-const API_URL = 'https://art-rpa-dev-board.herokuapp.com/';
+const API_URL = 'https://portfolio-dev-board-backend.herokuapp.com/';
 
 export default {
   name: 'Home',

@@ -45,7 +45,7 @@
 </template>
 
 <script>
-const API_URL = 'https://art-rpa-dev-board.herokuapp.com/add-client/';
+const API_URL = 'https://portfolio-dev-board-backend.herokuapp.com/add-client/';
 
 export default {
   name: 'addClient',
